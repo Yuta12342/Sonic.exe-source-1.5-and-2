@@ -2063,7 +2063,7 @@ class PlayState extends MusicBeatState
 					   					{
 							FlxG.camera.fade(FlxColor.BLACK, 0, true);
 							startSong();
-					   					});	
+					   					});
 				 */
 
 				default:
@@ -5507,7 +5507,7 @@ class PlayState extends MusicBeatState
 
 				daLoop++;
 			}
-			/* 
+			/*
 				trace(combo);
 				trace(seperatedScore);
 			 */
@@ -6387,7 +6387,6 @@ class PlayState extends MusicBeatState
 					FlxG.camera.flash(FlxColor.RED, 4);
 				case 1305:
 					cameramove = false;
-					FlxTween.tween(camHUD, {alpha: 0}, 0.3);
 					dad.playAnim('iamgod', true);
 					dad.nonanimated = true;
 				case 1362:
